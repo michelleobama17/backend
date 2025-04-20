@@ -17,7 +17,7 @@ app.add_middleware(
 SPORT = "basketball_nba"
 REGION = "us"
 MARKETS = "h2h,spreads,totals"
-API_KEY = os.getenv("1d98b10a1e991c76952c896152380fcf")
+API_KEY = "1d98b10a1e991c76952c896152380fcf"
 BASE_URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
 
 def fetch_odds(sport=SPORT, region=REGION, markets=MARKETS):
